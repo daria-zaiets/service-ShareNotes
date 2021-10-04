@@ -1,0 +1,33 @@
+.header-nav {    
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.menu-header-nav {
+    width: 75%;
+    height: 50px; 
+    margin: 0;
+
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.item-header-nav {
+    width: 10%;  
+
+    list-style-type: none;
+
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.logo-box {
+    width: 25%;  
+
+    font-weight: 600;
+    font-size: 23px;
+    font-style: italic;
+}
+

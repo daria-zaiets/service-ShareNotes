@@ -1,0 +1,16 @@
+.contacts {
+    padding: 0;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.contact-item{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.contact-title {
+    margin-left: 15px;
+    text-align: start;
+}

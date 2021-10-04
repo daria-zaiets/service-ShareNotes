@@ -1,0 +1,9 @@
+.general-footer {
+    background-color: rgba(20, 20, 20, 0.9);
+}
+
+.p-footer {
+    color: rgb(255, 208, 0, 0.5);
+    font-size: 17px;
+    text-align: center;
+}

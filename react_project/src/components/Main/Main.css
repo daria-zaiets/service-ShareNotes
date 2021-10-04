@@ -1,0 +1,30 @@
+.title-logo {
+    font-size: 19px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.subheading {
+    font-style: italic;
+}
+
+.center {    
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box-link {
+    padding: 15px 0 25px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.link-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+
+    background-color: rgba(20, 20, 20, 0.9);
+}

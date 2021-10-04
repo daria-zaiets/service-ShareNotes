@@ -1,0 +1,20 @@
+#url{
+    width: 80%;
+} 
+
+.notice {
+    width: 75%;
+    margin: 25px 0;
+}
+
+.error-text {
+    margin-top: 50px;
+
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px dashed;
+}
+
+.error-color {
+    color: rgba(231, 40, 40, 0.856);
+}

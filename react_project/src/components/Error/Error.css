@@ -1,0 +1,12 @@
+.error-404 {
+    width: 75%;
+    margin: 50px auto;
+    padding: 25px 0;
+
+    border: 5px solid rgb(253, 70, 70);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}

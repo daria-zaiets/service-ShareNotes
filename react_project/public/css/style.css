@@ -1,0 +1,132 @@
+/*-------------- ОБЩИЕ СТИЛИ -------------- */
+/* 
+* Здесь находятся только общие стили компонент
+* У каждой компоненты есть свой css-файл
+*/
+
+/* -- Разметка страницы -- */
+.container {
+    max-width: 3200px;
+    height: 100vh;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";;
+}
+
+/* -- Header сайта -- */
+.general-header {
+    grid-area: header;
+    background-color: rgba(20, 20, 20, 0.9);
+}
+
+/* -- Основная инфа -- */
+/* 
+* Обернуты все конмпоненты 
+* кроме header и footer
+*/
+main {
+    grid-area: main;
+    background-color: rgb(245, 245, 245)
+}
+
+/* -- Footer сайта -- */
+.general-footer {
+    grid-area: footer;
+}
+
+/* -- Контейнер каждого компонента -- */
+/* Для центрирования содержимого */
+.inner-container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* -- Общие стили по тегам -- */
+a {
+    display: inline-block;
+
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(255, 208, 0, 0.5);
+}
+
+p, ol, ul {
+    margin: 15px 50px;
+    font-size: 16px;
+}
+
+p {    
+    text-indent: 20px;
+}
+
+li {
+    margin-top: 5px;
+}
+
+button {
+    width: 20%;
+    margin-top: 25px;
+    padding: 10px;
+
+    border-radius: 15px;
+    background-color: rgba(20, 20, 20, 0.9);
+    color: rgb(255, 208, 0);
+}
+
+
+/* -- Общие стили по классам -- */
+
+.align-center {
+    margin: 25px 50px;
+
+    display: flex;    
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.label-note {
+    width: 15%;
+    padding-top: 5px;
+
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.note-text {
+    width: 85%;
+    padding: 5px 25px;    
+
+    border: 3px solid rgb(255, 187, 0);
+    border-radius: 15px;
+
+    font-size: 20px;
+}
+
+.logo-img {
+    width: 25px;
+}
+
+/* -- Динамические стили -- */
+.hide {
+    display: none;
+}
+
+.active {
+    color: rgb(255, 145, 0);
+    font-weight: 600;
+    font-size: 22px;
+}
